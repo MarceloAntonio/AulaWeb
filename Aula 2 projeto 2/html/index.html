@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario para Cultuar Kasane-teto</title>
+  </head>
+  <body>
+    <header>
+      <h1>Culto Kasane Teto</h1>
+      <a href="#Formulario">Formulario</a>
+      <a href="#midia">Midias</a>
+      <a href="#footer">Rodapé</a>
+    </header>
+
+
+
+    <section id="Formulario">
+      <p>Para cadastro nos informe os seguintes dados</p>
+      <form
+        action=""
+        method="post"
+        style="display: flex; flex-direction: column; width: 250px"
+      >
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" placeholder="Exemplo da Silva" />
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" placeholder="exemplo@email.com" />
+
+        <label for="numero">Numero</label>
+        <input type="number" name="numero" placeholder="(12)12345-1234" />
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" placeholder="*****" />
+
+        <label for="senha2">Confirme sua senha</label>
+        <input type="password" name="senha2" placeholder="*****" />
+
+        <label for="checkbox">Você concorda com os termos?</label>
+        <input type="checkbox" name="checkbox" id="" required />
+        <a href="/html/termos.html" target="_blank">Ler termo</a>
+
+        <label for="sobre">Fale sobre Porque deveriamos lhe aceitar no culto</label>
+        <textarea name="sobre" id=""></textarea>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+      </form>
+    </section>
+
+
+
+
+    <section style="display: flex; flex-direction: column; width: 250px" id="midia">
+      
+      <h2><strong>Local de midias da nossa &#@%¨#(%*#</strong></h2>
+
+
+      <label for="#video">Video da kasane-teto</label>
+      <video width="300" controls loop autoplay muted id="video">
+       
+        <source src="/Assets/kasaneVideo.mp4" />
+        <p>Seu navegador não é compatível com video html5</p>
+
+      </video>
+      
+        
+        <label for="#img1">Ilusão de ótica Kasane-Pera</label>
+        <img width="100" src="/Assets/kasanePera.gif" alt="img1" id="img1"/>
+      
+        <label for="#img2">kasane-teto dançando em formato gif</label>
+        <img width="100" src="/Assets/kasane-teto.gif" alt="img2" id="img2" />
+      
+
+      <label for="#audio">Linda voz da kasane-teto</label>
+      <audio controls loop autoplay id="audio">
+       
+        <source src="/Assets/kasaneMusic.mp3" type="audio/mp3" />
+        <p>Seu navegador não é compatível com áudio html5</p>
+
+      </audio>
+    </section>
+
+    <footer id="footer"><a href="https://github.com/MarceloAntonio/">Made by Celo</a></footer>
+  
+  </body>
+</html>
